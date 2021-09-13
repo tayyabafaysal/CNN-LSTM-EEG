@@ -7,10 +7,3 @@ A hybrid CNN-LSTM model is trained to localise anomalies in each channel of EEG 
 
 This application was programmed in Python 3.5
 
-# Run
-
-Modify config.py, especially correct data folders for your path..
-Run with python ./auto_diagnosis.py
-auto_diagnosis.py defines and train CNN models
-diagnosis.py gives features from trained deep CNN
-hybrid_lstm.py trains an LSTM model to classify sequence of features
